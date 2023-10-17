@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Creation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Client Creation</h1>
+    </header>
+    <main>
+        <section id="client-form">
+                <h1>Create a Client</h1>
+                <h6>please fill in this form to create a client</h6>
+
+            <form action="registration_process.html" method="POST">
+                <div class="form-group">
+                    <label for="client-name">Name:</label><br>
+                    <input type="text"  id="client-name" name="Enter Name"  required type="submit" placeholder="EnterName"><br>
+                </div><br>
+                <div class="form-group">
+                    <label for="client-email">Email:</label><br>
+                    <input type="email" id="client-email" name="client-email"  placeholder="EnterEmail"/>
+                </div><br>
+                <div class="form-group">
+                    <label for="client-address">Address:</label><br>
+                    <textarea id="client-address" name="client-address" rows=""  placeholder="EnterAddress"></textarea>
+                </div><br>
+                <div class="form-group">
+                    <label for="client-password">Password:</label><br>
+                    <input type="password" id="client-password" name="client-password"  placeholder="EnterPassword">
+     
+                </div><br>
+                <div class="form-group">
+                    <label for="repeat-password">Repeat Password:</label><br>
+                    <input type="password" id="client-password" name="client-password"  placeholder="EnterRepeat Password">
+                    <br>
+
+                </div><br>
+                <div class="form-group"><br>
+                    <input type="submit" value="Register" class="custom-button">
+                    <input type="submit" value="cencle" class="custom-button1">
+                  
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        &copy; 2023 Simpli Learn Private Limited.
+    </footer>
+</body>
+</html>

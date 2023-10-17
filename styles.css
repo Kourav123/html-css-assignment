@@ -1,0 +1,83 @@
+/* Reset some default browser styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2e2935;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #080101;
+    border-radius: 5px;
+}
+#client-form h1 {
+    color: green;
+}
+#client-form h6 {
+    color: #325aa8;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+#reg{
+    color: green;
+}
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px; /* Add margin for spacing */
+    display: block; /* Make it a block element for better layout */
+}
+/* CSS to change the button color */
+.custom-button {
+    background-color: #00ff4c; /* Change to your desired color */
+    color: #fff; /* Text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.custom-button:hover {
+    background-color: #00ff4c; /* Change to your desired color on hover */
+
+}
+.custom-button1 {
+    background-color: #ff0000; /* Change to your desired color */
+    color: #fff; /* Text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.custom-button:hover1 {
+    background-color: #ff0000;; /* Change to your desired color on hover */
+}
+
